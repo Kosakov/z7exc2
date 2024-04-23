@@ -4,7 +4,7 @@ import SectionOne from "./components/layout/section1"
 
 export default function Home() {
   return (
-    <main className=" bg-[#F4F4F4] w-[100vw] h-[100vh]">
+    <main className=" bg-[#F4F4F4] max-w-[1440px] h-[100vh]">
       <NavBar/>
       <SectionOne/>
     </main>

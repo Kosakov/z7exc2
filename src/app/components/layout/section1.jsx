@@ -9,10 +9,11 @@ import amazonPic from "/public/Amazon.svg"
 
 function SectionOne(){
 return(
-    <div className="flex flex-wrap">
-        <div className=" flex-1 basis-[50%]">
-            <h1 className=" font-bold text-[4rem]">Bringing companies and customers together, anywhere</h1>
-            <p className=" text-lg">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
+    <div className="flex flex-wrap gap-[4.75rem]">
+        <div className=" flex-1 basis-[50%] max-w-[40rem] shrink-1">
+            <h1 className=" font-bold text-[4rem] text-[#150050] leading-[4.6rem]">Bringing companies and customers together, anywhere</h1>
+            <div className=" flex flex-col gap-[4.3rem]">
+            <p className=" text-lg mt-[2.2rem]">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
             <div className="relative w-[28.5rem]">
             <input
             type="text"
@@ -25,13 +26,15 @@ return(
             Try for Free
           </button>
             </div>
-            <p className=" text-sm">Full access. No credit card required.</p>        
+            </div> 
+            <p className=" text-sm mt-[0.63rem]">Full access. No credit card required.</p>   
+                
         </div>
         <div className="basis-[50%]">
         <Image priority src={dashboardPic} alt="dashboardPic"/>
          
         </div>
-        <div className="flex flex-row gap-[6.68rem] mt-[8.18rem]">
+        <div className="flex flex-row gap-[6.68rem] ">
             <p>Trusted by 1,000+ customers</p>
             <Image priority src={googlePic} alt="googlePic"/>
             <Image priority src={atlassianPic} alt="atlassianPic"/>
