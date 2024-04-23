@@ -3,7 +3,7 @@ import logo from "/public/Roooby.svg";
 
 function NavBar() {
   return (
-    <nav className="w-100% h-auto  flex justify-around items-center mt-8">
+    <nav className="w-100% h-auto  flex justify-around items-center pt-8">
       <Image priority src={logo} alt="Logooo"/>
       <div className=" text-sm font-medium flex gap-9 ">
         <a href="#" className="hover:text-gray-500">Product</a>
